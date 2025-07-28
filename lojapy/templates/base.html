@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minimal Fashion - {% block title %}{% endblock %}</title>
+    <title>Dante Pescaria - {% block title %}{% endblock %}</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1><a href="/">MINIMAL FASHION</a></h1>
+        <div class="container_logo">
+        <img src="{{ url_for('static', filename='images/logo.jpg') }}">
+        </div>
+        <h1><a href="/">DANTE PESCARIA</a></h1>
         <nav>
             <ul>
                 <li><a href="/">Home</a></li>
@@ -26,7 +29,7 @@
     </main>
 
     <footer>
-        <p>&copy; 2023 Minimal Fashion. Todos os direitos reservados.</p>
+        <p>&copy; 2025 Dante Pescaria. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>

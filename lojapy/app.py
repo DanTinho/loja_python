@@ -4,10 +4,10 @@ app = Flask(__name__)
 
 # Dados de exemplo para os produtos
 produtos = [
-    {"id": 1, "nome": "Camiseta Básica", "preco": 49.90, "imagem": "camiseta.jpg"},
-    {"id": 2, "nome": "Calça Jeans", "preco": 129.90, "imagem": "jeans.jpg"},
-    {"id": 3, "nome": "Vestido Elegante", "preco": 199.90, "imagem": "vestido.jpg"},
-    {"id": 4, "nome": "Jaqueta de Couro", "preco": 299.90, "imagem": "jaqueta.jpg"},
+    {"id": 1, "nome": "Vara de Pesca com Molinete 200m", "preco": 249.90, "imagem": "vara_de_pesca.jpg"},
+    {"id": 2, "nome": "Linha de Pesca Dourado 100g", "preco": 59.90, "imagem": "linha.jpg"},
+    {"id": 3, "nome": "Jogo de Anzol Black Chinu 10 unidades", "preco": 19.90, "imagem": "anzol.jpg"},
+    {"id": 4, "nome": "Isca Artificial 12cm", "preco": 14.90, "imagem": "isca.jpg"},
 ]
 
 @app.route('/')
