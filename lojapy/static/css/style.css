@@ -12,6 +12,7 @@ header {
     background: rgb(132, 241, 255);
     padding: 1rem 2rem;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 0 auto;
 }
 
 header h1 a {
@@ -20,9 +21,14 @@ header h1 a {
     font-weight: 600;
 }
 
+header .header_flex {
+    display: flex;
+    flex-direction: row;
+}
+
 header .container_logo {
-    height: 100px;
-    width: 100px;
+    height: 70px;
+    width: 70px;
 }
 
 header img {
@@ -30,10 +36,16 @@ header img {
     height: 100%;
 }
 
+header p {
+    margin-top: -16px;
+}
+
 nav ul {
     list-style: none;
-    padding: 0;
+    padding: 15px;
     display: flex;
+    margin-top: -5rem;
+    justify-content: flex-end;
 }
 
 nav ul li {
@@ -126,4 +138,32 @@ form button {
     padding: 0.5rem 1.5rem;
     border-radius: 4px;
     cursor: pointer;
+}
+
+.produto a {
+    text-decoration: none;
+    color: #666
+}
+
+.produto a:hover {
+    color: #333
+}
+
+.un_produto {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    align-self: center;
+    margin: 0;
+}
+
+.un_produto img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.es_produto {
+    margin-left: 40px;
+    text-align: center;
 }

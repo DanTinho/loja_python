@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %}nada{% endblock %}
+
+{% block content %}
+
+    <div class="un_produto">
+        <img src="{{ url_for('static', filename='images/' ~ produto.imagem) }}" alt="{{ produto.nome }}">
+        <div class="es_produto">
+            <h1>{{ produto.nome }}</h1>
+            <p><strong>Preço:</strong> R$ {{ "%.2f"|format(produto.preco) }}</p>
+        </div>
+    </div>
+{% endblock %}

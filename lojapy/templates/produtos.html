@@ -7,9 +7,11 @@
 <div class="produtos-grid">
     {% for produto in produtos %}
     <div class="produto">
+        <a href="{{ url_for('produto_unico', produto_id=produto.id) }}">
         <img src="{{ url_for('static', filename='images/' + produto.imagem) }}" alt="{{ produto.nome }}">
         <h3>{{ produto.nome }}</h3>
         <p>R$ {{ "%.2f"|format(produto.preco) }}</p>
+        </a>
     </div>
     {% endfor %}
 </div>
