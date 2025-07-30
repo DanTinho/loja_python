@@ -6,7 +6,7 @@ app = Flask(__name__)
 produtos = [
     {"id": 1, "nome": "Vara de Pesca com Molinete 200m", "preco": 149.90, "imagem": "vara_de_pesca.jpg"},
     {"id": 2, "nome": "Linha de Pesca Dourado 100g 600 Metros", "preco": 49.90, "imagem": "linha.jpg"},
-    {"id": 3, "nome": "Jogo de Anzol Black Chinu 10 unidades", "preco": 19.90, "imagem": "anzol.jpg"},
+    {"id": 3, "nome": "Molho de Anzóis Black Chinu 10 unidades", "preco": 19.90, "imagem": "anzol.jpg"},
     {"id": 4, "nome": "Isca Artificial 12cm", "preco": 14.90, "imagem": "isca.jpg"},
 ]
 
