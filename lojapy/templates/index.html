@@ -4,6 +4,17 @@
 
 {% block content %}
 <section class="hero">
+    <div class="slideshow">
+        <div class="slide">
+            <img src="{{ url_for('static', filename='images/banner.jpg') }}">
+        </div>
+        <div class="slide">
+            <img src="{{ url_for('static', filename='images/banner2.jpg') }}">
+        </div>
+        <div class="slide">
+            <img src="{{ url_for('static', filename='images/banner3.jpg') }}">
+        </div>
+    </div>
     <h2>Artigos de pesca para profissionais</h2>
     <a href="/produtos" class="btn">Ver Produtos</a>
 </section>
